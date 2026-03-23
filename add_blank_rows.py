@@ -120,20 +120,19 @@ for filepath, prefix in files:
         # Write headers
         new_ws.append(headers)
 
-        # Group: first all Positive, then blank row, then all Negative
+        # First section: ALL Positive, then blank row, then ALL Negative
         positive_rows = [r for s, r in rows_with_sentiment if s == 'Positive']
         negative_rows = [r for s, r in rows_with_sentiment if s == 'Negative']
-        # Rows that inherited sentiment
-        # We need to properly group: track sentiment transitions and add blank rows
-        
-        # Better approach: write rows in order, insert blank row when sentiment changes
-        prev_sentiment = None
-        for current_sent, row_data in rows_with_sentiment:
-            if prev_sentiment is not None and current_sent != prev_sentiment:
-                # Insert blank row as separator
-                new_ws.append([None] * num_cols)
+
+        for row_data in positive_rows:
             new_ws.append(row_data)
-            prev_sentiment = current_sent
+
+        if positive_rows and negative_rows:
+            # Insert blank row separator
+            new_ws.append([None] * num_cols)
+
+        for row_data in negative_rows:
+            new_ws.append(row_data)
 
         style_sheet(new_ws)
 
