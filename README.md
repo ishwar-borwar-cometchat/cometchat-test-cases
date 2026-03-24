@@ -13,8 +13,9 @@
 | 7 | Send Threaded Message | 72 | [📄 Open](https://view.officeapps.live.com/op/view.aspx?src=https://raw.githubusercontent.com/ishwar-borwar-cometchat/cometchat-test-cases/main/Send_Threaded_Message/Send_Threaded_Message_Test_Cases.xlsx) |
 | 8 | Group Actions | 179 | [📄 Open](https://view.officeapps.live.com/op/view.aspx?src=https://raw.githubusercontent.com/ishwar-borwar-cometchat/cometchat-test-cases/main/Group_Actions/Group_Actions_Test_Cases.xlsx) |
 | 9 | Groups Module | 109 | [📄 Open](https://view.officeapps.live.com/op/view.aspx?src=https://raw.githubusercontent.com/ishwar-borwar-cometchat/cometchat-test-cases/main/Groups_Module/Groups_Module_Test_Cases.xlsx) |
-| 10 | User Module | 138 | [📄 Open](https://view.officeapps.live.com/op/view.aspx?src=https://raw.githubusercontent.com/ishwar-borwar-cometchat/cometchat-test-cases/main/User_Module/Users_Module_Test_Script.xlsx) |
+| 10 | User Module | 92 | [📄 Open](https://view.officeapps.live.com/op/view.aspx?src=https://raw.githubusercontent.com/ishwar-borwar-cometchat/cometchat-test-cases/main/User_Module/Users_Module_Test_Script.xlsx) |
 | 11 | Call Module | 151 | [📄 Open](https://view.officeapps.live.com/op/view.aspx?src=https://raw.githubusercontent.com/ishwar-borwar-cometchat/cometchat-test-cases/main/Call_Module/Calls_Module_Test_Cases.xlsx) |
+| 12 | Login | 46 | [📄 Open](https://view.officeapps.live.com/op/view.aspx?src=https://raw.githubusercontent.com/ishwar-borwar-cometchat/cometchat-test-cases/main/Login/Login_Test_Cases.xlsx) |
 
 **Total: 1,421 Test Cases** (excluding feature overview file)
 
